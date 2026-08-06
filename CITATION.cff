@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+title: "NIST CSF 2.0 GOVERN Operating Model"
+authors:
+  - family-names: "Adjeli"
+    given-names: "Grace M."
+repository-code: "https://github.com/BridgeCoreAI/nist-csf-governance-operating-model"
+version: 0.1.0
+date-released: "2026-08-06"
+license: Apache-2.0
+type: software
+abstract: >
+  A public reference implementation for operationalizing the NIST CSF 2.0
+  GOVERN function through control records, evidence architecture, governance
+  registers, review workflows, maturity assessments, and accountable
+  remediation. Current release covers the GV.OC (Organizational Context)
+  category only.
+
+# The following fields are placeholders and should be reviewed before relying on them:
+# orcid: "PLACEHOLDER - add if available"
+# doi: "PLACEHOLDER - add if a DOI is registered for this release"
+# contact email: "PLACEHOLDER - add a monitored contact address"
+# url: "PLACEHOLDER - add https://bridgecore-ai.com if appropriate"
