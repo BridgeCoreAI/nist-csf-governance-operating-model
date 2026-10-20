@@ -33,6 +33,7 @@ Most organizations can produce a governance policy. Far fewer can produce eviden
 
 ## Repository Structure
 
+```
 ├── README.md
 ├── GOVERNANCE.md
 ├── CONTRIBUTING.md
@@ -61,6 +62,7 @@ Most organizations can produce a governance policy. Far fewer can produce eviden
     ├── regulatory-change-template.md
     ├── review-record-template.md
     └── stakeholder-review-template.md
+ ```
 
 The `docs/` directory contains the core operating model. The `templates/` directory contains the public template set.
 
