@@ -10,11 +10,10 @@ date-released: "2026-08-06"
 license: Apache-2.0
 type: software
 abstract: >
-  A public reference implementation for operationalizing the NIST CSF 2.0
+  A public framework and template set for operationalizing the NIST CSF 2.0
   GOVERN function through control records, evidence architecture, governance
   registers, review workflows, maturity assessments, and accountable
-  remediation. Current release covers the GV.OC (Organizational Context)
-  category only.
+  remediation. Current release (v0.1.0) provides the framework documentation and template set; GV.OC control instantiation is planned.
 
 # The following fields are placeholders and should be reviewed before relying on them:
 # orcid: "PLACEHOLDER - add if available"
