@@ -1,3 +1,5 @@
+All structural and claim checks in this repository — file inventory, version consistency, calibrated claims, internal links — are re-verified by executable tests on every push. See the [Actions tab](https://github.com/BridgeCoreAI/nist-csf-governance-operating-model/actions/workflows/tests.yml).
+
 # NIST CSF 2.0 GOVERN Operating Model
 
 A public framework and template set for operationalizing the NIST CSF 2.0 GOVERN function through control records, evidence architecture, governance registers, review workflows, maturity assessments, and accountable remediation.
