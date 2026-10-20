@@ -29,9 +29,40 @@ Most organizations can produce a governance policy. Far fewer can produce eviden
 
 ## 4. Current Release Scope
 
-**Current release: v0.1.0**
-**Current scope: GV.OC (Organizational Context) only**
-**Future categories: planned and not yet implemented**
+**Current release (v0.1.0):** framework documentation and template set. GV.OC control instantiation planned — see CHANGELOG.
+
+## Repository Structure
+
+├── README.md
+├── GOVERNANCE.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CITATION.cff
+├── LICENSE
+├── CHANGELOG.md
+├── docs/
+│   ├── operating-model.md
+│   ├── evidence-model.md
+│   ├── assessment-method.md
+│   ├── maturity-model.md
+│   ├── limitations.md
+│   ├── repository-architecture.md
+│   ├── implementation-guide.md
+│   ├── future-roadmap.md
+│   ├── glossary.md
+│   └── portfolio-positioning.md
+└── templates/
+    ├── control-record-template.md
+    ├── decision-record-template.md
+    ├── dependency-review-template.md
+    ├── evidence-record-template.md
+    ├── finding-and-recommendation-template.md
+    ├── operationalization-plan-template.md
+    ├── regulatory-change-template.md
+    ├── review-record-template.md
+    └── stakeholder-review-template.md
+
+The `docs/` directory contains the core operating model. The `templates/` directory contains the public template set.
 
 ## 5. GV.OC Controls Covered
 
