@@ -1,12 +1,12 @@
 # NIST CSF 2.0 GOVERN Operating Model
 
-A public reference implementation for operationalizing the NIST CSF 2.0 GOVERN function through control records, evidence architecture, governance registers, review workflows, maturity assessments, and accountable remediation.
+A public framework and template set for operationalizing the NIST CSF 2.0 GOVERN function through control records, evidence architecture, governance registers, review workflows, maturity assessments, and accountable remediation.
 
 BridgeCore AI LLC | Governance Systems Engineering Lab
 
 ---
 
-**This repository is a public reference implementation. All organizations, evidence records, stakeholders, risks, decisions, findings, and operational examples are fictional, synthetic, or sanitized for educational, research, and portfolio purposes.**
+**This repository is a public framework and template set.. All organizations, evidence records, stakeholders, risks, decisions, findings, and operational examples are fictional, synthetic, or sanitized for educational, research, and portfolio purposes.**
 
 ---
 
@@ -66,7 +66,7 @@ Most organizations can produce a governance policy. Far fewer can produce eviden
 
 The `docs/` directory contains the core operating model. The `templates/` directory contains the public template set.
 
-## 5. GV.OC Controls Covered
+## 5. GV.OC Control Coverage (instantiation planned for v0.2.0)
 
 - GV.OC-01 , Organizational mission understood and informing cybersecurity risk management
 - GV.OC-02 , Internal and external stakeholder needs and expectations understood and considered
@@ -76,15 +76,15 @@ The `docs/` directory contains the core operating model. The `templates/` direct
 
 ## 6. Repository Architecture
 
-See `docs/repository-architecture.md` for the full breakdown. In short: `govern/` holds control records organized by GOVERN category and control ID, `shared-registers/` holds the cross-control governance registers, `evidence/` holds evidence records, `templates/` holds reusable templates for every artifact type, and `examples/` holds the fictional organization used throughout.
+See `docs/repository-architecture.md` for the full breakdown. The `templates/` directory holds reusable templates for every artifact type. The v0.2.0 instantiation will add: `govern/` (control records by GOVERN category), `shared-registers/` (cross-control registers), `evidence/` (evidence records), and `examples/` (the fictional organization).
 
 ## 7. How to Navigate This Repository
 
-Start with `docs/operating-model.md` for the conceptual model, then `govern/GV.OC-organizational-context/README.md` for the control area itself, then any individual control folder for a worked example.
+Start with `docs/operating-model.md` for the conceptual model, `docs/evidence-model.md` and `docs/assessment-method.md` for the evidence and assessment models. Worked control folders arrive with v0.2.0.
 
 ## 8. How to Use Control Records
 
-Each control folder contains a `control-record.md` (the assessment itself), an `evidence-log.md`, `findings.md`, `action-plan.md`, and `review-history.md`. See `docs/assessment-method.md` for how these fit together.
+The `templates/` directory defines each control artifact: `control-record-template.md` (the assessment itself), `evidence-record-template.md`, `finding-and-recommendation-template.md`, and `review-record-template.md`. Instantiated control folders arrive with v0.2.0. See `docs/assessment-method.md` for how these fit together.
 
 ## 9. How to Use the Evidence Model
 
@@ -128,12 +128,13 @@ See `CONTRIBUTING.md`. Issues and pull requests are welcome for corrections, cla
 
 ## 19. Release Roadmap
 
-- v0.1.0 , GV.OC Organizational Context complete (current)
-- v0.2.0 , GV.RM Risk Management Strategy (planned)
-- v0.3.0 , GV.RR Roles, Responsibilities, and Authorities (planned)
-- v0.4.0 , GV.PO Policy (planned)
-- v0.5.0 , GV.OV Oversight (planned)
-- v0.6.0 , GV.SC Cybersecurity Supply Chain Risk Management (planned)
+- v0.1.0 , framework documentation and template set (current)
+- v0.2.0 , GV.OC Organizational Context instantiation (planned)
+- v0.3.0 , GV.RM Risk Management Strategy (planned)
+- v0.4.0 , GV.RR Roles, Responsibilities, and Authorities (planned)
+- v0.5.0 , GV.PO Policy (planned)
+- v0.6.0 , GV.OV Oversight (planned)
+- v0.7.0 , GV.SC Cybersecurity Supply Chain Risk Management (planned)
 - v1.0.0 , Complete NIST CSF 2.0 GOVERN operating model (planned)
 
 See `docs/future-roadmap.md`.
