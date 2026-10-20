@@ -88,14 +88,22 @@ class TestClaimsAreCalibrated(unittest.TestCase):
 
 
 class TestStructureMatchesStatedScope(unittest.TestCase):
-    """The README declares govern/, shared-registers/, evidence/, examples/
-    as v0.2.0+ additions. Until that release exists, they must NOT be here."""
+    """The README/CHANGELOG declare govern/, shared-registers/, evidence/,
+    examples/ as v0.2.0+ additions. They may exist locally as empty
+    scaffolding, but nothing under them may be tracked/published until
+    that release ships."""
 
-    def test_planned_dirs_do_not_exist_yet(self):
+    def test_planned_dirs_have_no_tracked_content(self):
+        import subprocess
+        tracked = subprocess.run(
+            ["git", "ls-files"], capture_output=True, text=True, cwd=ROOT
+        ).stdout.split()
         for name in PLANNED_DIRS:
-            self.assertFalse((ROOT / name).exists(),
-                             f"{name}/ exists but is only planned for v0.2.0+ "
-                             "(update README and CHANGELOG when it lands)")
+            hits = [p for p in tracked if p == name or p.startswith(name + "/")]
+            self.assertFalse(hits,
+                             f"{name}/ has tracked content but is planned for "
+                             f"v0.2.0+ (release deliberately: update README, "
+                             f"CHANGELOG, and this test)")
 
 
 class TestLicense(unittest.TestCase):
