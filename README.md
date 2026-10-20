@@ -6,7 +6,7 @@ BridgeCore AI LLC | Governance Systems Engineering Lab
 
 ---
 
-**This repository is a public framework and template set.. All organizations, evidence records, stakeholders, risks, decisions, findings, and operational examples are fictional, synthetic, or sanitized for educational, research, and portfolio purposes.**
+**This repository is a public framework and template set. All organizations, evidence records, stakeholders, risks, decisions, findings, and operational examples are fictional, synthetic, or sanitized for educational, research, and portfolio purposes.**
 
 ---
 
@@ -108,7 +108,7 @@ Version control, pull request review, issue tracking, and scheduled workflows pr
 
 ## 14. What GitHub Does Not Prove
 
-GitHub does not, by itself, satisfy NIST CSF requirements. It serves as a version-controlled evidence, workflow, and accountability layer in this reference implementation. The existence of an artifact does not prove a control is operating effectively; operating effectiveness must be supported by appropriate evidence over time. See `docs/limitations.md`.
+GitHub does not, by itself, satisfy NIST CSF requirements. It serves as a version-controlled evidence, workflow, and accountability layer in this framework. The existence of an artifact does not prove a control is operating effectively; operating effectiveness must be supported by appropriate evidence over time. See `docs/limitations.md`.
 
 ## 15. Synthetic Data Notice
 
